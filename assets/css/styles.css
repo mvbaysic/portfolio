@@ -1,15 +1,16 @@
 html, body{
 	font-size:16px;
-	color: #dfdfdf;
-	background-color: #063647; 
+	color: #000000;
+	background-color: #000000; 
 }
 
 a {
-  color: #00d1b2;
+  color: #F7C419;
+  font-weight: bold;
 }
 
 a:hover {
-  color: #00d1b2;
+  color: white;
 }
 
 section{
@@ -18,20 +19,20 @@ section{
 }
 
 .section-1 {
-	background: #063647;
+	background: #ffffff;
 }
 
 .section-2 {
-	background-color: #052D3D;
+	background: #000000;
 }
 
 .section-3 {
-	background-color: #0E282E;
+	background-color: #ffffff;
 }
 
 .section-4 {
-	background-color: #063647;
-	padding: 0.2rem;
+	background-color: #F7C419;
+	padding: 1em;
 }
 
 a.nav-item {
@@ -65,15 +66,16 @@ a.nav-item:hover {
 
 .project-text {
 	text-align: justify;
+	font-size: small;
 }
 
 .box {
-	background-color: transparent;
-	border: 2px solid rgba(7, 59, 79, 0.5);
+	background-color: #ffffff;
+	border: 4px solid #F7C419;
 }
 
 .title {
-	color: #fff;
+	color: #ffffff;
 	text-align: left;
 	margin-bottom: 2rem;
 }
